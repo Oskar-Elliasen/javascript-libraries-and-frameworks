@@ -1,0 +1,7 @@
+.maincontainer {
+    background-color: lavenderblush;
+}
+
+.col, .col-6 {
+    border: solid black 4px;
+}
