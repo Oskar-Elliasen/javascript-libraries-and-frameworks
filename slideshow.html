@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/splide.min.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    
+    <style>
+        .splide__slide img {
+  width: 100%;
+  height: auto;
+}
+    </style> 
+
+  </head>
+  <body>
+    <main>
+        
+        <h1>Slideshow using Splide.js</h1>  
+
+        <section id="image-carousel" class="splide" aria-label="Beautiful Images">
+            <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <img src="/images/slideshow/7-11.jpg" alt="Two Men Sitting on a Bench">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="/images/slideshow/Carriage.jpg" alt="A human drawn carriage">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="/images/slideshow/Guards.jpg" alt="Two guards viewed from above">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="/images/slideshow/Police.jpg" alt="Two police officers on a street">
+                        </li>
+                    </ul>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="js/splide.min.js"></script>
+    
+    <script>
+     new Splide( '#image-carousel' ).mount();
+    </script>
+  </body>
+</html>
